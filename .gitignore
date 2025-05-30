@@ -3,9 +3,13 @@ venv/
 .env
 .idea/
 
-# Data you don’t want in Git
-data/raw/
-data/processed/
+# Data folders—ignore everything in raw/ and processed/
+data/raw/*
+data/processed/*
+
+# But do track the .gitkeep placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Byte-code, logs, OS files
 __pycache__/
