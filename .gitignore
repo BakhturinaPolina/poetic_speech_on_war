@@ -1,0 +1,15 @@
+# Python environment and IDE
+venv/
+.env
+.idea/
+
+# Data you don’t want in Git
+data/raw/
+data/processed/
+
+# Byte-code, logs, OS files
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
